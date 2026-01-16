@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background: url('us.jpeg') no-repeat center center/cover;
+  font-family: 'Arial', sans-serif;
+}
+
+.overlay {
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  padding: 15px 25px;
+  font-size: 18px;
+  border: none;
+  border-radius: 30px;
+  background: #ff4d6d;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #ff1f4a;
+}
+
+#message {
+  margin-top: 30px;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 25px;
+  border-radius: 15px;
+  max-width: 80%;
+  text-align: center;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.hidden {
+  display: none;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+#yesBtn {
+  margin-top: 20px;
+  background: #000;
+  color: white;
+}
+
+#yesBtn:hover {
+  background: #333;
+}
+.card {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 25px;
+  border-radius: 20px;
+  max-width: 80%;
+  text-align: center;
+}
+
+#yesBtn {
+  margin-top: 20px;
+  padding: 12px 28px;
+  border: none;
+  border-radius: 25px;
+  background: black;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#yesBtn:hover {
+  background: #333;
+}
